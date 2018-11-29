@@ -1,0 +1,40 @@
+body {
+	font-family: "Nunito", sans-serif;
+	background: url('img/bg.png') no-repeat right top #0DBEEC ;
+	color: white;
+}
+
+container {
+	max-width: 1005px;
+	margin: 0 auto;
+	padding: 2em 1em;
+}
+
+header {
+	text-align: center;
+
+}
+
+#app-logo {
+	width: 180px;
+}
+
+nav {
+	margin: 2em auto 0;
+	max-width: 600px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a{
+	font-size: 1.25em;
+	color:white;
+	font-weight: 700;
+	text-decoration: none;
+	
+}
